@@ -33,13 +33,16 @@ A simple and responsive **To-Do List** web application built with **React** and 
 ```bash
 git clone https://github.com/hazem-gouda/to-do-list.git
 
-# Navigate to the project directory
+ Navigate to the project directory
+```bash
 cd to-do-list
 
-# Install dependencies
+ Install dependencies
+```bash
 npm install
 
-# Start the development server
+ Start the development server
+```bash
 npm start
 
 ---------------------------------------------------------------------------

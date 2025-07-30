@@ -28,21 +28,17 @@ A simple and responsive **To-Do List** web application built with **React** and 
 ![Incomplete To-Do's (Dark mode)](imgs/todo2.png)
 
 ## 📦 Installation
-
- Clone the repository
 ```bash
+ Clone the repository
 git clone https://github.com/hazem-gouda/to-do-list.git
 
  Navigate to the project directory
-```bash
 cd to-do-list
 
  Install dependencies
-```bash
 npm install
 
  Start the development server
-```bash
 npm start
 
 ---------------------------------------------------------------------------

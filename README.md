@@ -34,7 +34,7 @@ A simple and responsive **To-Do List** web application built with **React** and 
 
 This project is licensed under the MIT License - feel free to use and modify it.
 
-Made with ❤️ by Hazem Gouda
+Made with ❤️ by **Hazem Gouda**
 
 ## 📦 Installation
 ```bash

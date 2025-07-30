@@ -1,0 +1,86 @@
+/* Premium animated background with multi-layered gradients and blur */
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background:
+    linear-gradient(120deg, #f0f4ff 0%, #e0ffe0 100%),
+    radial-gradient(circle at 80% 20%, #b2f7ef 0%, transparent 60%),
+    radial-gradient(circle at 10% 80%, #a1c4fd 0%, transparent 70%);
+  background-blend-mode: lighten, lighten, normal;
+  /* Subtle animated overlay */
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: repeating-radial-gradient(circle at 20% 20%, #e3f0ff 0px, #e3f0ff 2px, transparent 3px, transparent 100px);
+  opacity: 0.5;
+  animation: bgMove 16s linear infinite alternate;
+  filter: blur(2px);
+}
+
+@keyframes bgMove {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 60px 60px, 40px 40px; }
+}
+
+/* Remove default .App styles, not used with Material UI */
+/* .App { text-align: center; } */
+
+/* Add more padding, a soft border, and a glassy effect for the root container */
+.MuiContainer-root {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 32px rgba(25, 118, 210, 0.08);
+  border-radius: 24px;
+  background: rgba(255,255,255,0.92);
+  padding: 48px 32px;
+  border: 1.5px solid #e3f0ff;
+  backdrop-filter: blur(2px);
+}
+
+/* Add a smooth transition for theme changes */
+* {
+  transition: background 0.3s, color 0.2s;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

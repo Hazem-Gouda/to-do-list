@@ -1,3 +1,10 @@
+## 🚀 Live Demo
+
+Click here to open the To-Do List app:  
+[![View Demo](https://img.shields.io/badge/View-Demo-blue?style=for-the-badge)](https://hazem-gouda.github.io/to-do-list)
+
+
+
 # 📝 To-Do List App
 
 A simple and responsive **To-Do List** web application built with **React** and **Material UI**. This app helps users manage their daily tasks by adding, completing, and removing to-dos in an organized way.
@@ -22,7 +29,6 @@ A simple and responsive **To-Do List** web application built with **React** and 
 
 ## 📦 Installation
 
-```bash
 # Clone the repository
 git clone https://github.com/hazem-gouda/to-do-list.git
 

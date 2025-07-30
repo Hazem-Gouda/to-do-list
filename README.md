@@ -29,7 +29,8 @@ A simple and responsive **To-Do List** web application built with **React** and 
 
 ## 📦 Installation
 
-# Clone the repository
+ Clone the repository
+```bash
 git clone https://github.com/hazem-gouda/to-do-list.git
 
 # Navigate to the project directory

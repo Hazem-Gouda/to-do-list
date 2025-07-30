@@ -27,6 +27,13 @@ A simple and responsive **To-Do List** web application built with **React** and 
 ![All To-Do's (Light mode)](imgs/todo1.png)
 ![Incomplete To-Do's (Dark mode)](imgs/todo2.png)
 
+
+----------------------------------------------------------------------------
+
+This project is licensed under the MIT License - feel free to use and modify it.
+
+Made with ❤️ by Hazem Gouda
+
 ## 📦 Installation
 ```bash
  Clone the repository
@@ -40,9 +47,3 @@ npm install
 
  Start the development server
 npm start
-
----------------------------------------------------------------------------
-
-This project is licensed under the MIT License - feel free to use and modify it.
-
-Made with ❤️ by Hazem Gouda

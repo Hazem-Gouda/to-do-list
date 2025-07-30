@@ -1,7 +1,9 @@
 ## 🚀 Live Demo
 
-Click here to open the To-Do List app:  
-[![View Demo](https://img.shields.io/badge/View-Demo-blue?style=for-the-badge)](https://hazem-gouda.github.io/to-do-list)
+Click here to open the To-Do List app: 
+ 
+        [![View Demo](https://img.shields.io/badge/View-Demo-blue?style=for-the-badge)](https://hazem-gouda.github.io/to-do-list)
+
 
 
 

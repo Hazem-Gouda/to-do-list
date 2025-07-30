@@ -36,14 +36,14 @@ Made with ❤️ by Hazem Gouda
 
 ## 📦 Installation
 ```bash
- Clone the repository
+# Clone the repository
 git clone https://github.com/hazem-gouda/to-do-list.git
 
- Navigate to the project directory
+# Navigate to the project directory
 cd to-do-list
 
- Install dependencies
+# Install dependencies
 npm install
 
- Start the development server
+# Start the development server
 npm start
